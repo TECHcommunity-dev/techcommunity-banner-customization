@@ -1,0 +1,155 @@
+/* CSS for Discourse Category Banner */
+#main>div.ember-view .below-site-header-outlet.category-header-widget .discourse-category-banners{
+    display: block;
+    background-image: url(https://aws1.discourse-cdn.com/techcommunity/original/2X/e/ed6a66ab67c5d81de83ba21e93938d1ac5e1c6f1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    .category-title-header{
+        background: none !important;   
+        max-width: calc(100% - 16px);
+        width: 1110px;
+        margin: auto;
+        justify-content: left !important;
+        padding: 0px !important;
+    }
+    
+    .category-title-contents {
+        padding: 20px !important;
+        background-color: #f2f2ea;
+        margin: 20px 0px;
+        text-align: left;
+        color: black;
+        display: block;
+        float: left;
+        min-width: 340px;
+    }
+    
+    .category-title-contents .category-title-description .cooked{
+        padding: 0px !important;
+    }
+}
+
+/* CSS for customizing Versatile Banner [Displayed on Home Page] */
+
+#main .banner{
+
+    background-image: url($home-page-background-image);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #EED4A1;
+    
+    .banner-box{
+        margin: auto;
+        max-width: calc(100% - 16px) ;
+        width: 1100px;
+        background: none;
+    }
+    
+    .banner-box .container{
+        padding: 18px;
+        display: inline-block !important;
+        background: #011f3d;
+        width: auto !important;
+        max-width: 100%;
+        margin: 25px auto !important;
+    }
+    
+    .banner-box .section-header {
+    padding: 0px 0px 15px 0px !important;
+    color: #fff;
+    font-size: 24px;
+    }
+    
+    div#banner-content_wrap{
+        padding-bottom: 0px !important;
+    }
+    
+    .banner-box .row{
+        display: block !important; 
+    }
+    
+    .single-box{
+            padding: 0px 15px 0px 0px;    
+    }
+    .single-box:last-child{
+        padding: 0px;    
+    }
+    
+    .single-box a{
+        width: auto !important;
+        padding: 10px 15px;    
+        margin-bottom: 7px;
+    }
+    
+    .single-box a:hover{
+        background-color: #1c5569 !important;
+        color: #ffffff !important;
+        box-shadow: none;
+    }
+    
+    .single-box a::after{
+        content: "";
+        background-image: url($small-arrow_blue);
+        background-size: 100% 100%;
+        width: 14px;
+        height: 14px;
+        display: inline-block;
+        margin-left: 10px;
+    }
+    
+    .single-box a:hover::after{
+        background-image: url($small-arrow_white);
+        background-size: 100% 100%;
+        width: 14px;
+        height: 14px;
+        display: inline-block;
+        margin-left: 10px;
+    }
+    
+    h3{
+        margin-bottom: 0px !important;  
+    }
+    
+    @media screen and (max-width: 736px){
+        .single-box{
+            padding: 0px 15px 3px;
+        }
+        .single-box:last-child{
+            padding: 0px 15px 3px;
+        }        
+    }
+}
+
+
+/* CSS for Tag Page baaner [012-01-2021] */
+.tag-header-widget{
+    .tag-title-header{
+        background-color: transparent;
+        background-image: url($home-page-background-image);
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        padding-top: 0px;
+    }
+    .tag-title-header .tag-title-contents{
+        max-width: calc(100% - 16px);
+        width: 1110px;
+        margin: auto;
+        justify-content: left !important;
+        padding: 0px !important;
+        display: flex;
+        text-align: center;
+    }
+    .tag-title-header .tag-title-contents h1{
+        font-size: 1.5157em !important;
+        padding: 20px !important;
+        background-color: #f2f2ea;
+        margin: 30px 0px;
+        text-align: left;
+        color: black;
+        display: block;
+        float: left;
+        min-width: 340px;
+    }
+}

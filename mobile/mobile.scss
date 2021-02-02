@@ -1,0 +1,53 @@
+/* CSS for Discourse Category Banner */
+#main>div.ember-view .below-site-header-outlet.category-header-widget .discourse-category-banners{
+    display: block;
+    background-image: url(https://aws1.discourse-cdn.com/techcommunity/original/2X/e/ed6a66ab67c5d81de83ba21e93938d1ac5e1c6f1.jpeg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}    
+
+/* CSS for Discourse Category Banner */
+#main>div.ember-view .below-site-header-outlet.category-header-widget .discourse-category-banners{
+ .category-title-contents {
+        min-width: unset;
+        width: 100%;
+    }
+}
+
+/* CSS for Tag Page baaner [012-01-2021] */
+.tag-header-widget{
+    .tag-title-header{
+        background-size:auto 100%;
+    }
+    .tag-title-header .tag-title-contents h1{
+        min-width: unset;
+        width: 100%;
+    }
+}
+
+/* CSS for Tag Sidebar baaner [012-01-2021] */
+.custom-sidebar #main-outlet .discovery-list-container-top-outlet.tag-sidebar{
+    .tag-sidebar{
+        background-color: transparent;
+        background-image: url($home-page-background-image);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .tag-sidebar-contents{
+        padding: 15px 20px !important;
+        background-color: #f2f2ea;
+        //margin: 20px 0px;
+        text-align: left;
+        color: black;
+        display: block;
+        float: left;
+        margin-top: -15px;
+    }
+    
+    .cooked{
+        padding-top: 20px  !important; 
+        padding-bottom: 20px !important;    
+    }
+    
+}
