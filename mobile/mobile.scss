@@ -1,5 +1,5 @@
 /* CSS for Discourse Category Banner */
-#main>div.ember-view .below-site-header-outlet.category-header-widget .discourse-category-banners{
+#main>div:first-child .below-site-header-outlet.category-header-widget .discourse-category-banners{
     display: block;
     background-image: url(https://aws1.discourse-cdn.com/techcommunity/original/2X/e/ed6a66ab67c5d81de83ba21e93938d1ac5e1c6f1.jpeg);
     background-repeat: no-repeat;
@@ -7,7 +7,7 @@
 }    
 
 /* CSS for Discourse Category Banner */
-#main>div.ember-view .below-site-header-outlet.category-header-widget .discourse-category-banners{
+#main>div:first-child .below-site-header-outlet.category-header-widget .discourse-category-banners{
  .category-title-contents {
         min-width: unset;
         width: 100%;
